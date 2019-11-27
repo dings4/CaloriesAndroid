@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+		android:text="Calorie Counter"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_weight="20"
+		android:layout_height="0dp"
+		android:textColor="@android:color/holo_blue_light"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+    <Button
+        android:text="Calculating food calories"
+        android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="15"
+        android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/CalculatingCalories" />
+	<TextView
+		android:text="Small Text"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1" />
+    <Button
+        android:text="Get food information"
+        android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="15"
+        android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/GetFoodInfo" />
+	<TextView
+		android:text="Small Text"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2" />
+    <Button
+        android:text="Producer information"
+        android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="15"
+        android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/ShowProducerInfo" />
+	<TextView
+		android:text="Small Text"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3" />
+	<Button
+		android:text="User data"
+        android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="15"
+        android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/GetFoodInfo" />
+</LinearLayout>
